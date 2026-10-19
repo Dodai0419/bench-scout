@@ -1,0 +1,1 @@
+{"name": "bench-scout", "owner": {"name": "Dodai0419"}, "plugins": [{"name": "bench-scout", "source": "./", "description": "Find the agent-memory benchmark that fits your system: BM25 search over 207 source-traced entries, offline, zero dependencies."}]}

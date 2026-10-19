@@ -1,0 +1,20 @@
+bench-scout
+Copyright (c) 2026 Dodai0419 (MIT, see LICENSE)
+
+This product includes material from:
+
+1. memory-bench-registry - https://github.com/Fengzdadi/memory-bench-registry
+   Copyright (c) 2026 Fengzdadi
+   - data/benchmarks.json is the registry's published benchmarks.json, unmodified.
+     The data is licensed under the Creative Commons Attribution 4.0 International
+     License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+   - The search haystack, facet filters and default ordering in bench_scout.py
+     follow site/index.html of that repository (MIT License).
+
+2. Caveman (cavemem) - https://github.com/JuliusBrussee/caveman
+   Copyright 2026 Julius Brussee
+   Licensed under the Apache License, Version 2.0:
+   http://www.apache.org/licenses/LICENSE-2.0
+   - The BM25 scoring (k1=1.5, b=0.75, +1-smoothed IDF), tokenizer and stopword
+     list in bench_scout.py are a Python port of mem/bm25.go. Changes: ported
+     from Go to Python, scores keyed by document index.
